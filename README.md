@@ -41,9 +41,9 @@ If you couldn't install the script but just saved it to the Desktop:
 Below you'll find some guidance with the above process:
 
 <h3>Accessing the <tt>~/Library</tt> folder</h3>
-On Lion and Mountain Lion this folder is hidden, thus to select it in the Save As... dialogue of the browser
+On <i>Lion</i> and <i>Mountain Lion</i> this folder is hidden, thus to select it in the <i>Save As...</i> dialogue of the browser
 it needs to be unhidden first.  You can accomplish this in a Terminal window with the following command:
-<code>
+<code style="display: block">
   # sudo chflags nohidden ~/Library
 </code>
 Note that you'll need sudo access to accomplish this.
@@ -76,3 +76,4 @@ HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of
 I don't have much time to support stuff but you're always welcome to e-mail me and I'll see 
 what I can do.  My address is e at arix dot com.
 
+If you feel generous, donations are always welcome.  Here's my bitcoin address: 1NfcAiyjn6TJNdUqVnoA56xbHWHXj1uwts
