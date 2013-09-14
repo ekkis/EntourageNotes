@@ -58,7 +58,7 @@ link for the script file, click on the Raw button and save the page (Cmd-S) in <
 <p><b>If the Script menu item is not visible on your machine:</b></p>
 
 1. Run the Applications/Utilities/AppleScript Editor application
-2. Invoke the Preferences dialogue (press Command-,)
+2. Invoke the Preferences dialogue (press Cmd-,)
 3. Check the "Show Script menu in menu bar" box
 4. Close the dialogue and exit the application
 
@@ -74,6 +74,5 @@ HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of
 <h2>Support</h2>
 
 I don't have much time to support stuff but you're always welcome to e-mail me and I'll see 
-what I can do.  My address is <tt>e at arix dot com</tt>
-
-If you feel generous, donations are always welcome.  Here's my bitcoin address: <tt>1NfcAiyjn6TJNdUqVnoA56xbHWHXj1uwts</tt>
+what I can do.  My address is <tt>e at arix dot com</tt>.  Donations are always welcome so if you
+feel generous here's my bitcoin address: <tt>1NfcAiyjn6TJNdUqVnoA56xbHWHXj1uwts</tt>
