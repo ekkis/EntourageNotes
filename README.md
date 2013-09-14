@@ -6,7 +6,7 @@ This script will convert Entourage notes on a Mac to Mountain Lion notes.
 <h2>Install</h2>
 <br/>
 Download this script and save it into your <tt>~/Library/Scripts/Applications/Notes</tt> 
-folder.  If this folder does not exist, just create it.
+folder.  If this folder does not exist, just create it - please see the Notes section below
 
 <h2>Use</h2>
 To import your notes from Entourage follow the steps below:
@@ -22,24 +22,50 @@ Using the Finder:
 1. Right-mouse click on the archive and select the "Show package contents" item from the context menu
 2. Inside the archive there is a folder called "Notes", move it to a location outside the archive, like your desktop
 
-Open the Notes application:
+If installing the script was successful:
 
-1. Click down the Script menu (located on the OSX menu bar) and select "Import Entourage Notes"
-2. Select the "Notes" folder you placed on your desktop
-3. Wait a bit and watch your notes appear!
+1. Open the Notes application (located on your dock)
+2. Click down the Script menu (located on the OSX menu bar) and select "Import Entourage Notes"
+3. Select the "Notes" folder you placed on your desktop
+4. Wait a bit and watch your notes appear!
+
+If you couldn't install the script but just saved it to the Desktop:
+
+1. Double-click on the script to open it
+2. the AppleScript Editor will open
+3. press the Run button
+4. Select the "Notes" folder you placed on your desktop
+5. Wait a bit and watch your notes appear!
 
 <h2>Notes</h2>
-If the Script menu item is not visible on your machine:
+Below you'll find some guidance with the above process:
 
-1. Run the Applications/Utilities/AppleScript Editor application
-2. Invoke the Preferences dialogue (press Command-,)
-3. Check the "Show Script menu in menu bar" box
-4. Close the dialogue and exit the application
+<h3>Accessing the <tt>~/Library</tt> folder</h3>
+On Lion and Mountain Lion this folder is hidden, thus to select it in the Save As... dialogue of the browser
+it needs to be unhidden first.  You can accomplish this in a Terminal window with the following command:
+<code>
+  # sudo chflags nohidden ~/Library
+</code>
+Note that you'll need sudo access to accomplish this.
+
+<h3>Saving the script to the Desktop</h3>
+If the above is too complicated for you, save the script into your Desktop and run it there instead
+
+<h3>Github and Safari</h3>
+Github doesn't offer functionality to download a single file so what you need to do is click on the github
+link for the script file, click on the Raw button and save the page (Cmd-S) in <i>Page Source</i> format
 
 <h2>Developer notes</h2>
 
 Notes within a Entourage archive are stored in a VCalendar format, which is plain text, the body of which is essentially
 HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of the files for the import to occur
+
+<b>If the Script menu item is not visible on your machine:</b>
+
+1. Run the Applications/Utilities/AppleScript Editor application
+2. Invoke the Preferences dialogue (press Command-,)
+3. Check the "Show Script menu in menu bar" box
+4. Close the dialogue and exit the application
 
 <h2>Possible enhancements</h2>
 
