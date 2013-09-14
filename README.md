@@ -9,7 +9,7 @@ Download this script and save it into your <tt>~/Library/Scripts/Applications/No
 folder.  If this folder does not exist, just create it.
 
 <h2>Use</h2>
-To import your notes from Entourage following the steps below:
+To import your notes from Entourage follow the steps below:
 
 1. In Entourage, select the File/Export menu.
 2. In the dialogue, check the "Items to an Entourage archive" radio button.
