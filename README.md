@@ -1,3 +1,7 @@
+<style>
+h1 { font-size: 10pt; }
+</style>
+
 EntourageNotes
 ==============
 
@@ -5,7 +9,7 @@ This script will convert Entourage notes on a Mac to Mountain Lion notes.
 
 <h1>Install</h1>
 <br/>
-Download this script and save it into your ~/Library/Scripts/Applications/Notes 
+Download this script and save it into your <tt>~/Library/Scripts/Applications/Notes</tt> 
 folder.  If this folder does not exist, just create it.
 
 <h1>Use</h1>
@@ -27,7 +31,6 @@ Open the Notes application:
 1. Click down the Script menu (located on the OSX menu bar) and select "Import Entourage Notes"
 2. Select the "Notes" folder you placed on your desktop
 3. Wait a bit and watch your notes appear!
-4. 
 
 <h1>Notes</h1>
 If the Script menu item is not visible on your machine:
@@ -45,3 +48,9 @@ HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of
 <h1>Possible enhancements</h1>
 
 1. it would be nice if the script could look into the archive directly.  this would save the user the task of extraction
+
+<h1>Support</h1>
+
+I don't have much time to support stuff but you're always welcome to e-mail me and I'll see what I can do.  My address is e at arix dot com.
+
+<h1
