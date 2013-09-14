@@ -3,11 +3,12 @@ EntourageNotes
 
 This script will convert Entourage notes on a Mac to Mountain Lion notes.
 
--- Install --
+<h1>Install</h1>
+<br/>
 Download this script and save it into your ~/Library/Scripts/Applications/Notes 
 folder.  If this folder does not exist, just create it.
 
--- Use --
+<h1>Use</h1>
 To import your notes from Entourage following the steps below:
 
 1. In Entourage, select the File/Export menu.
@@ -28,7 +29,7 @@ Open the Notes application:
 3. Wait a bit and watch your notes appear!
 4. 
 
--- Notes --
+<h1>Notes</h1>
 If the Script menu item is not visible on your machine:
 
 1. Run the Applications/Utilities/AppleScript Editor application
@@ -36,11 +37,11 @@ If the Script menu item is not visible on your machine:
 3. Check the "Show Script menu in menu bar" box
 4. Close the dialogue and exit the application
 
--- Developer notes --
+<h1>Developer notes</h1>
 
 Notes within a Entourage archive are stored in a VCalendar format, which is plain text, the body of which is essentially
 HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of the files for the import to occur
 
--- Possible enhancements --
+<h1>Possible enhancements</h1>
 
 1. it would be nice if the script could look into the archive directly.  this would save the user the task of extraction
