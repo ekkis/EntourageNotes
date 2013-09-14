@@ -43,9 +43,9 @@ Below you'll find some guidance with the above process:
 <h3>Accessing the <tt>~/Library</tt> folder</h3>
 On <i>Lion</i> and <i>Mountain Lion</i> this folder is hidden, thus to select it in the <i>Save As...</i> dialogue of the browser
 it needs to be unhidden first.  You can accomplish this in a Terminal window with the following command:
-<code style="display: block">
-  # sudo chflags nohidden ~/Library
-</code>
+<p>
+  <tt># sudo chflags nohidden ~/Library</tt>
+</p>
 Note that you'll need sudo access to accomplish this.
 
 <h3>Saving the script to the Desktop</h3>
@@ -74,6 +74,6 @@ HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of
 <h2>Support</h2>
 
 I don't have much time to support stuff but you're always welcome to e-mail me and I'll see 
-what I can do.  My address is e at arix dot com.
+what I can do.  My address is <tt>e at arix dot com</tt>
 
-If you feel generous, donations are always welcome.  Here's my bitcoin address: 1NfcAiyjn6TJNdUqVnoA56xbHWHXj1uwts
+If you feel generous, donations are always welcome.  Here's my bitcoin address: <tt>1NfcAiyjn6TJNdUqVnoA56xbHWHXj1uwts</tt>
