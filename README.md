@@ -40,7 +40,7 @@ If you couldn't install the script but just saved it to the Desktop:
 <h2>Notes</h2>
 Below you'll find some guidance with the above process:
 
-<h3>Accessing the <tt>~/Library</tt> folder</h3>
+<p><b>Accessing the <tt>~/Library</tt> folder</b></p>
 On <i>Lion</i> and <i>Mountain Lion</i> this folder is hidden, thus to select it in the <i>Save As...</i> dialogue of the browser
 it needs to be unhidden first.  You can accomplish this in a Terminal window with the following command:
 <p>
@@ -48,24 +48,24 @@ it needs to be unhidden first.  You can accomplish this in a Terminal window wit
 </p>
 Note that you'll need sudo access to accomplish this.
 
-<h3>Saving the script to the Desktop</h3>
+<p><b>Saving the script to the Desktop</b></p>
 If the above is too complicated for you, save the script into your Desktop and run it there instead
 
-<h3>Github and Safari</h3>
+<p><b>Github and Safari</b></p>
 Github doesn't offer functionality to download a single file so what you need to do is click on the github
 link for the script file, click on the Raw button and save the page (Cmd-S) in <i>Page Source</i> format
 
-<h2>Developer notes</h2>
-
-Notes within a Entourage archive are stored in a VCalendar format, which is plain text, the body of which is essentially
-HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of the files for the import to occur
-
-<b>If the Script menu item is not visible on your machine:</b>
+<p><b>If the Script menu item is not visible on your machine:</b></p>
 
 1. Run the Applications/Utilities/AppleScript Editor application
 2. Invoke the Preferences dialogue (press Command-,)
 3. Check the "Show Script menu in menu bar" box
 4. Close the dialogue and exit the application
+
+<h2>Developer notes</h2>
+
+Notes within a Entourage archive are stored in a VCalendar format, which is plain text, the body of which is essentially
+HTML.  Since ML Notes are also HTML, it's only necessary to strip the headers of the files for the import to occur
 
 <h2>Possible enhancements</h2>
 
